@@ -1,3 +1,7 @@
+# Mi primera web 2026 2
+aquí estoy construyendo algo
+
+
 # comandos basicos de git
 
 ## conocer el estado de mi work directory
@@ -18,8 +22,30 @@
 
 ´git log´
 
+# Agregar repositorio remoto
+´git remote add [nombre_remoto] [URL]´
+
+# verificar las ramas
+´git branch´
+
+# renombrar una rama de mi repo
+´git branch -M [NUEVO_NOMBRE]´
+
+# Verificar mis repositorios remotos
+´git remote -v´
+
+
 # HTML
 
 ## abreviación para plantilla HTML
 ´!´ o ´html:5´ en un archivo con extencion .html
+
+# etiquetas semánticas
+- heder
+- main
+- footer
+- article
+- seccion
+- nav
+- aside
 
