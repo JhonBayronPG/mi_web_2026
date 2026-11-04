@@ -48,4 +48,8 @@ aquí estoy construyendo algo
 - seccion
 - nav
 - aside
+- p
+- a
+- img
+- figure
 
