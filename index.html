@@ -1,57 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Web JBPG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
 </head>
+
+
 <body>
 
     <header>
         <h1>Mi Primera Web JBPG</h1>
-
-        <main>
-            <seccion></seccion>
-            <article
-            <nav></nav>
-            <aside></aside>
-
-            <seccion>
-            <h2>Mi Blog</h2>
-            <p>Esta sección esta destinada a la creación del blog de noticias de mi sitio web</p>
-            <article>
-                <h3>Primer Post</h3>
-                <img width="400" src="./assets/img/WhatsApp Image 2026-11-02 at 4.39.36 PM.jpeg" alt="Imagen de mi primer post">
-                <p>Esta es la entrada de mi blog. Aquí compartiré mis pensamientos y experiencias sobre los diversos temas.</p>
-                <a href="http://L" target="_blank" rel="noopener noreferrer">Leer entrada completa</a>
-            </article>
+        <nav>
+            <a href="#blog">Blog</a>
+            <a href="#perfil">Perfil</a>
+            <a href="#proyectos">Proyectos</a>
             
-            <article></article>
-            <article></article>
-
-            </seccion>
-
-            <seccion>
-            <h2>Mi Perfil</h2>
-            <p>Esta sección esta destinada a la creación del perfil de mi sitio web</p>
-            </seccion>
-
-            <seccion>
-            <h2>Mis Proyectos</h2>
-            <p>Esta sección esta destinada a la creación de los proyectos de mi sitio web</p>
-
-        </main>
-        <footer>
-
-            <seccion>
-            <h2>Paginas de Interes</h2>
-            <a href="https://chatgpt.com/" target="" rel="noopener noreferrer">ChatGPT</a>
-            <a href="https://www.utp.edu.co/" target="_blank" rel="noopener noreferrer">Universidad Tecnológica de Pereira</a>
-            </seccion>
-
-            <seccion>
-            <h2>Contactos</h2>
-        </footer>
-
+        </nav>
     </header>
+
+    <main>
+
+        <section id="blog">
+            <h2>Mi Blog</h2>
+            <p>Esta sección está destinada a la creación del blog de noticias de mi sitio web.</p>
+
+            <article class="noticia-blog">
+                <h3>Primer Post</h3>
+                <img src="./assets/img/WhatsApp Image 2026-11-02 at 4.39.36 PM.jpeg" alt="Imagen de mi primer post">
+                <p id="main_text" class="noticia-blog__resumen" style="color:cadetblue;">Esta es la entrada de mi blog. Aquí compartiré mis pensamientos y experiencias sobre los diversos temas.</p>
+                <a href="#blog">Leer entrada completa</a>
+                
+            </article>
+        </section>
+
+        <section id="perfil">
+            <h2>Mi Perfil</h2>
+            <p>Esta sección está destinada a la creación del perfil de mi sitio web.</p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <p>Esta sección está destinada a la creación de los proyectos de mi sitio web.</p>
+        </section>
+        <div class="social-media">
+            <a href="https://www.facebook.com/share/1CKSCGsSwA/" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.instagram.com/jhonbayronperezgiraldo?obrf=MTUwcXc4bG5la2VuaA==" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+        <div class="mi_contenedor">
+            <p class="mi_contenedor __texto">Este es un párrafo dentro del contenedor.</p>
+        </div>
+    </main>
+
+    <footer>
+
+<section>
+    <h2>Contactos</h2>
+    <a href="mailto:bayron.perez1@utp.edu.co">bayron.perez1@utp.edu.co</a>
+
+    <div class="redes">
+        <a href="https://www.instagram.com/jhonbayronperezgiraldo?obrf=MTUwcXc4bG5la2VuaA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/share/1CKSCGsSwA/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+</section>
+
+    </footer>
+    .redes {
+        margin-top: 10px;
+    }
+
+    .redes a {
+        display: inline-block;
+        font-size: 28px;
+        margin-right: 15px;
+        color: #333;
+    }
+
+    .redes a:hover {
+        color: #0077cc;
+    }
+
+</body>
+
+</html>
